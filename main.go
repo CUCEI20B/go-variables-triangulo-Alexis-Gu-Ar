@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var height uint16
-	var width uint16
+	var height uint64
+	var width uint64
 	fmt.Scan(&height)
 	fmt.Scan(&width)
-	area := height * width / 2.0
+	area := height * width / 2
 	fmt.Print(area)
 }
